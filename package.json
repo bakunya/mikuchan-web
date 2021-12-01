@@ -1,0 +1,21 @@
+{
+  "name": "mikuchan-web",
+  "version": "1.0.0",
+  "description": "Learn tailwindcss from crash course video by Daily Tuition Channels that publish in youtube at 23-07-21",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/style.css -o public/output.css -w",
+    "dev": "serve public"
+  },
+  "author": "Bakunya [Rem-chan, Miku-chan]",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2",
+    "tailwindcss": "^2.2.19"
+  },
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
